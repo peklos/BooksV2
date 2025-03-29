@@ -1,0 +1,162 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+h2.underline {
+    text-decoration: underline;
+    text-decoration-color: #242582;
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
+}
+
+header {
+    background: linear-gradient(135deg, #242582, #6b4c83, #2F2FA2);
+}
+
+@media (max-width: 767px) {
+    .img-fluid {
+        width: 70%;
+        margin: 0 15%;
+    }
+
+    .last-block p{
+    margin-bottom: 50vw;
+    }
+}
+
+@media (max-width: 990px) {
+    .row {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 990px) and (min-width: 767px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .col-md-3 {
+        flex: 0 0 37%; /* Две карточки в ряд */
+        max-width: 46%;
+        margin: 10px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2F2FA2; 
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: transparent;
+}
+
+.book-shadow1 {
+    box-shadow: 0px 4px 25px rgba(34, 193, 195, 0.6);
+}
+
+.book-shadow2 {
+    box-shadow: 0px 4px 25px rgb(123, 193, 68, 0.6);
+}
+
+.book-shadow3 {
+    box-shadow: 0px 4px 25px rgb(226, 219, 129, 1);
+}
+
+.book-shadow4 {
+    box-shadow: 0px 4px 25px rgb(41, 54, 68, 0.8);
+}
+
+.text-shadow {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.sun-gradient-background {
+    /* background: radial-gradient(circle, rgba(255, 223, 186, 0.5), rgba(255, 200, 150, 0.4) 60%, rgba(255, 255, 255, 0) 100%); */
+    background-color: rgba(255, 200, 150, 0.4);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.text-justify p{
+    text-align: justify;
+}
+
+.social-link {
+    color: white;
+    transition: 0.2s all ease;
+}
+
+.social-link:hover {
+    color: #ffe9d4;
+}
+
+.btn {
+    border: 1px solid #b0a1c8;
+    margin-bottom: 10px;
+    transition: all .2s;
+}
+
+
+.btn:hover {
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.navbar-toggler {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.navbar-toggler {
+    margin: 0 auto 20px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Сдвиг кнопки влево при открытии меню */
+.navbar-toggler.collapsed {
+    transform: translateY(0);
+}
+
+.navbar-toggler:not(.collapsed) {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Легкая белая тень */
+}
+
+/* Центрирование кнопки по умолчанию */
+.navbar-toggler.mx-auto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img{
+    filter: invert(100%);
+}

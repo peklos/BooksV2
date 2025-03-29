@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(270deg, black, #833e25, black);
+    background-size: 600% 600%;
+    animation: gradientAnimation 30s ease infinite;
+    color: white;
+}
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.quote {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+section {
+    padding: 30px 0;
+}
+
+h2.underline {
+    text-decoration: underline;
+    text-decoration-color: #242582;
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
+}
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #eadf82; 
+}
+
+::-webkit-scrollbar-track {
+    background: black; 
+}
+
+.social-link {
+    color: white;
+    transition: 0.2s all ease;
+}
+
+.social-link:hover {
+    color: #eadf82;
+}
+
+.btn {
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+    transition: all .2s;
+    color: rgb(255, 255, 255);
+}
+
+.btn:hover {
+    color: #eadf82;
+    border: 1px solid #eadf82;
+    box-shadow: 0 0 10px #e75621;
+}
+
+.navbar-toggler {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.navbar-toggler {
+    margin: 0 auto 20px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.navbar-toggler:not(.collapsed) {
+    box-shadow: 0 0 10px white; 
+}
+
+.navbar-toggler.mx-auto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-obloga img{
+    width: 30%;
+    box-shadow: 0 0 20px #e3d57d;
+}
+
+@media (max-width: 1200px) {
+    .book-obloga img{
+        width: 50%;
+    } 
+}
+
+
+.quote {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.quote.italic {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.loran img{
+    border-radius: 10px;
+    box-shadow: 0 0 30px black;
+}
+
+@media (max-width: 570px) {
+    .loran img {
+        width: 40vw;
+    }
+}
+
+.padup {
+    padding-top: 0;
+}
+
+
+.logo img{
+    filter: invert(100%);
+}

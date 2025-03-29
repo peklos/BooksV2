@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Мои топ 4 книги</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="sun-gradient-background">
+    <header class="text-white text-center p-5">
+      <div class="d-flex justify-content-center mb-3 logo">
+        <img
+          src="images/logo.svg"
+          alt="Логотип"
+          class="logo"
+          style="max-width: 150px"
+        />
+        <!-- Укажите путь к логотипу и настройте размер -->
+      </div>
+
+      <h1>Привет! Это мой сайт про книги</h1>
+      <p>
+        Здесь я расскажу о 4 книгах, которые произвели на меня впечатление и
+        которые я рекомендую каждому к прочтению
+      </p>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <!-- Кнопка бургер-меню -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Навбар -->
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link btn mx-2" href="first-book.html"
+                  >Первая книга</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn mx-2" href="second-book.html"
+                  >Вторая книга</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn mx-2" href="third-book.html"
+                  >Третья книга</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn mx-2" href="fourth-book.html"
+                  >Четвертая книга</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container my-5">
+      <h2 class="text-center">О сайте</h2>
+      <p
+        class=""
+        style="
+          line-height: 1.4;
+          max-width: 639px;
+          margin: 0 auto;
+          text-align: justify;
+        "
+      >
+        На этом сайте я делюсь впечатлениями о книгах, которые мне понравились.
+        Сайт был сделан для практики в моем колледже, но может я залью этот сайт
+        на ГитХаб, чтобы показать свои какие-никакие, но умения в BootStrap.
+        Зацените как плавно блоки появляются при прокрутке вниз или заходе на
+        сайт
+      </p>
+    </section>
+
+    <section class="container my-5">
+      <h2 class="text-center mb-4 underline">Мои топ 4 книги</h2>
+      <div class="row">
+        <div class="col-md-3" data-aos="fade-up" data-aos-duration="1100">
+          <a href="first-book.html" class="text-decoration-none">
+            <div class="card h-100">
+              <img src="images/book.jpg" class="card-img-top" alt="Книга 1" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Человек, который хотел стать счастливым
+                </h5>
+                <p class="card-text">Лоран Гунель</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-duration="1300">
+          <a href="second-book.html" class="text-decoration-none">
+            <div class="card h-100">
+              <img src="images/book2.jpg" class="card-img-top" alt="Книга 2" />
+              <div class="card-body">
+                <h5 class="card-title">Бог всегда путешествует инкогнито</h5>
+                <p class="card-text">Лоран Гунель</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-duration="1500">
+          <a href="third-book.html" class="text-decoration-none">
+            <div class="card h-100">
+              <img src="images/book3.jpg" class="card-img-top" alt="Книга 3" />
+              <div class="card-body">
+                <h5 class="card-title">Самый богатый человек в Вавилоне</h5>
+                <p class="card-text">Джордж Клейсон</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-duration="1700">
+          <a href="fourth-book.html" class="text-decoration-none">
+            <div class="card h-100">
+              <img src="images/book4.jpg" class="card-img-top" alt="Книга 4" />
+              <div class="card-body">
+                <h5 class="card-title">Искусство войны</h5>
+                <p class="card-text">Сунь-Цзы</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5 last-block">
+      <h2 class="text-center mb-4 underline">Краткие содержания книг</h2>
+
+      <div class="row mb-4 asd">
+        <div class="col-md-3" data-aos="fade-right" data-aos-duration="700">
+          <img
+            src="images/book.jpg"
+            class="img-fluid book-shadow1"
+            alt="Книга 1"
+          />
+        </div>
+        <div
+          class="col-md-6 d-flex align-items-center justify-content-center text-shadow text-justify"
+          data-aos="fade-right"
+          data-aos-duration="700"
+        >
+          <p>
+            <strong>Человек, который хотел быть счастливым: </strong>Каждый
+            человек мечтает обрести счастье. Но порой эта мечта так никогда и не
+            воплощается в жизнь. Нам постоянно мешают какие-то внешние
+            обстоятельства, на первый взгляд непреодолимые. А чаще всего стать
+            счастливыми нам не позволяют некие внутренние запреты, от которых
+            очень трудно избавиться. Однако рецепт счастья существует! И
+            возможно, он известен одному старому целителю с острова Бали, о
+            котором рассказывают самые невероятные истории. Этот мудрый старик
+            лечит не тело, а душу человека. И ему ведома одна основополагающая
+            истина, способная изменить весь мир вокруг нас: то, во что мы верим,
+            становится нашей реальностью и определяет нашу жизнь. Книга поможет
+            обрести уверенность в себе, своих идеях, своей жизни, если всего
+            этого не ахти. Временами перечитываю фрагменты книги, если настигают
+            сомнения в происходящем со мной. А еще, она всего 188 страниц (за
+            полной цифровой копией книги пишите в тг).
+          </p>
+        </div>
+      </div>
+
+      <div class="row mb-4 flex-row-reverse">
+        <div class="col-md-3" data-aos="fade-up" data-aos-duration="1100">
+          <img
+            src="images/book2.jpg"
+            class="img-fluid book-shadow2"
+            alt="Книга 2"
+          />
+        </div>
+        <div
+          class="col-md-6 d-flex align-items-center justify-content-center text-shadow text-justify"
+          data-aos="fade-up"
+          data-aos-duration="900"
+        >
+          <p>
+            <strong>Бог всегда путешествует инкогнито: </strong> Главный герой
+            книги, Алан, находится в глубоком кризисе: его жизнь полна неудач,
+            он несчастен и даже задумывается о самоубийстве. В момент отчаяния
+            он встречает загадочного человека, который спасает его и предлагает
+            сделку: Алан должен следовать его советам и выполнять определенные
+            задания, которые помогут ему изменить свою жизнь. Взамен
+            таинственный незнакомец обещает помочь Алану достичь успеха и
+            счастья. Постепенно, выполняя задания, Алан начинает преодолевать
+            свои страхи, учится верить в себя и открывает для себя новые
+            возможности. Книга поднимает вопросы личностного роста, самопознания
+            и поиска смысла жизни, показывая, что каждый человек способен
+            изменить свою судьбу, если решится на внутренние перемены. Опять же,
+            книга, которая позволяет поднять свою самооценку, но, помимо этого,
+            меня завлек сам сюжет, из-за концовки даже всплакнул. Но она уже
+            около 700 страниц в цифровом формате, ее советую читать с расчетом
+            на впитывание в себя максимально и без торопливой читки. Да, Лоран
+            Гунель мой любимый писатель.
+          </p>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-md-3" data-aos="fade-up" data-aos-duration="1500">
+          <img
+            src="images/book3.jpg"
+            class="img-fluid book-shadow3"
+            alt="Книга 3"
+          />
+        </div>
+        <div
+          class="col-md-6 d-flex align-items-center justify-content-center text-shadow text-justify"
+          data-aos="fade-up"
+          data-aos-duration="1100"
+        >
+          <p>
+            <strong>Самый богатый человек в Вавилоне: </strong>Если честно, эту
+            книгу я читаю до сих пор, но уже весьма вдохновлен ею и замечаю за
+            собой те периоды, в которые информация с этой книги мне бы очень
+            пригодилась. Основная задумка книги в моем понимании такова :
+            <em
+              >"Любой дырявый и пустой кошелек можно залатать и отяжелить, если
+              действовать принципам богатства"</em
+            >. Действенные и основополагающие советы описаны в этой книге. Я мог
+            бы указать подобную этой книгу "Богатый папа, бедный папа", но она
+            базово и сыро рассказала мне о финансовой грамотности (так еще и
+            недоговорила, из-за чего мое "денежное дерево" завяло), нежели эта
+            книга.
+          </p>
+        </div>
+      </div>
+
+      <div class="row mb-4 flex-row-reverse">
+        <div class="col-md-3" data-aos="fade-right" data-aos-duration="1900">
+          <img
+            src="images/book4.jpg"
+            class="img-fluid book-shadow4"
+            alt="Книга 4"
+          />
+        </div>
+        <div
+          class="col-md-6 d-flex align-items-center justify-content-center text-shadow text-justify"
+          data-aos="fade-right"
+          data-aos-duration="1300"
+        >
+          <p>
+            <strong>Искусство войны: </strong> Вообще, эта книга одна из первых
+            мною прочитанных, так еще и начал я ее читать во-время участия в
+            турнире по доте, из-за чего сопоставлял все советы с игровым
+            геймплеем (надо будет перечитать после такого). Но некотортые советы
+            все-таки я перенял и впитал в свою личность (например, не надо
+            воевать за то, что не перекроет ресурсы, затраченные на борьбу). В
+            общем, эта книга - сборник советов как вести взаимоотношения
+            грамотно и с пользой для себя. Так я ее читал. Очень афористично все
+            описано, но если тяжело идет понимание, советую брать версию с
+            обьяснениями трактатов от других философов(как сделал я).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <!-- Соцсети по центру -->
+        <div class="d-flex justify-content-center gap-3 mb-4">
+          <a href="https://vk.com/peklos" class="social-link" target="_blank">
+            <i class="fab fa-vk fa-2x"></i>
+          </a>
+          <a
+            href="https://t.me/asdasd666asd"
+            class="social-link"
+            target="_blank"
+          >
+            <i class="fab fa-telegram fa-2x"></i>
+          </a>
+          <a
+            href="https://github.com/peklos"
+            class="social-link"
+            target="_blank"
+          >
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </div>
+
+        <!-- Две колонки -->
+        <div class="row">
+          <!-- Карта -->
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div class="h-100">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.373371425981!2d37.617633!3d55.755768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506f52311f!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1620000000000!5m2!1sru!2sru"
+                width="100%"
+                height="250"
+                style="border: 0; border-radius: 8px"
+                allowfullscreen=""
+                loading="lazy"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <!-- Форма -->
+          <div class="col-md-6">
+            <h5 class="mb-3">Подписаться на новости о книгах</h5>
+            <form>
+              <div class="mb-2">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Ваш Email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="Номер телефона"
+                />
+              </div>
+              <button type="submit" class="btn btn-outline-light w-100">
+                Подписаться
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Копирайт -->
+        <div class="text-center mt-4 pt-3 border-top border-secondary">
+          <p class="mb-0">&copy; 2025 Мой сайт о книгах</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Стили для улучшения внешнего вида -->
+    <style>
+      .social-link {
+        color: #adb5bd;
+        transition: all 0.3s;
+      }
+      .social-link:hover {
+        color: #fff;
+        transform: translateY(-3px);
+      }
+      .form-control {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-color: #495057;
+        color: white;
+      }
+      .form-control:focus {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        border-color: #6c757d;
+        box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.25);
+      }
+      .btn-outline-light:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+      .form-control::placeholder {
+        color: white;
+        opacity: 0.7;
+      }
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
